@@ -21,7 +21,7 @@
     </div>
 </div>
 <script>
-function bindPrevent(){
+function bindPrevent(){ 
     console.log('test');
     $('#loading-box').on('click', '#go-home', function(){
         Main.closeDialog();
